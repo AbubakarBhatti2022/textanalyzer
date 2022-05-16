@@ -1,0 +1,129 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.topbar{
+  background-color: rgba(0, 0, 0, 0.904);
+  color: rgb(168, 168, 168);
+  align-items: center;
+  
+}
+.topbar .row{
+ text-align: center;
+ padding: 5px 0px;
+
+}
+.icon-column i{
+ padding-left: 20px;
+ color: white;
+ margin-right: 0%;
+}
+.icon-column i:hover{
+  color: #ecb314;
+}
+.location-column:hover{
+color: white
+}
+.message-column:hover{
+  color: #ecb314;
+  cursor: pointer;
+}
+
+.row.header1{
+  background-color: #41494a7e;
+}
+.menu .nav-link{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-right: 20px !important;
+  border-right: 1px solid rgb(112, 112, 112);
+ 
+  
+}
+.menu .nav-link:active{
+  color: #ecb314;
+  border-bottom: 2px solid #ecb314;
+}
+.menu .nav-link:hover{
+  color: #ecb314;
+  border-bottom: 2px solid #ecb314;
+  cursor: pointer;
+}
+.site-logo{
+  height: 50px;
+  width: 150px;
+  margin-right: 20px;
+}
+
+/* search bar css */
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+/* .slidertext{
+  color: red;
+  background-color: green;
+} */
+
+
+
+
+.textAnalyzer{
+  background-color: #CB2027;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  opacity: 1;
+  animation-name: button-text;
+  animation-duration: 0.75s;
+  animation-delay: 1.3s;
+  animation-fill-mode: backwards;
+  transition: all 0.2s ease;
+  background-color: #CB2027;
+  border:0;
+  font-weight: bold;
+  margin: 2rem auto;
+  display: block;
+  border-radius: 25px;
+  position: relative;
+  outline: none;
+  padding: 12px;
+  cursor: pointer;
+  min-width: 200px;
+  animation-name: button;
+  animation-duration: 0.75s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  display: inline;
+
+}
+.btn{
+  box-shadow: 1px 5px 4px red;
+}
+
+  
